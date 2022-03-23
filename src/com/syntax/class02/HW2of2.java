@@ -14,7 +14,10 @@ public class HW2of2 {
         driver.findElement(By.name("firstname")).sendKeys("Ivanna");
         driver.findElement(By.name("lastname")).sendKeys("GoHome");
         driver.findElement(By.name("reg_email__")).sendKeys("Ivanna.GoHome@yahoo.com");
-        driver.findElement(By.name("reg)passwd__")).sendKeys("ThePasswordIsPassword");
-
+        Thread.sleep(2000);
+        driver.findElement(By.name("reg_email_confirmation__")).sendKeys("Ivanna.GoHome@yahoo.com");
+        driver.findElement(By.name("reg_passwd__")).sendKeys("ThePasswordIsPassword");
+        driver.close();
+        driver.quit();
     }
 }

@@ -7,7 +7,7 @@ public class WebElementCommands {
 
     Methods:
     isEnabled() -- returns boolean value
-    isDispalyed() -- boolean value
+    isDisplayed() -- boolean value
     isSelected() -- boolean value
     clear() -- void
     getText() -- String value

@@ -45,7 +45,7 @@ public class class05task2 {
         Select year = new Select(yearDD);
         year.selectByVisibleText("1996");
 
-        WebElement genderRadio = driver.findElement(By.xpath("//input[@id='u_2_5_MG']"));
+        WebElement genderRadio = driver.findElement(By.id("u_2_5_nm"));
         genderRadio.click();
         WebElement submit = driver.findElement(By.name("websubmit"));
         submit.click();
